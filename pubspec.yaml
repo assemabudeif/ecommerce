@@ -55,6 +55,7 @@ dependencies:
   device_preview: ^1.1.0
   responsive_builder: ^0.7.0
   image_pickers: ^2.0.4+8
+  equatable: ^2.0.5
 
 dev_dependencies:
   flutter_test:
@@ -65,3 +66,23 @@ dev_dependencies:
 flutter:
 
   uses-material-design: true
+
+  assets:
+    - assets/images/
+
+
+  fonts:
+    - family: Cairo
+      fonts:
+        - asset: assets/fonts/Cairo/Cairo-ExtraLight.ttf
+          weight: 200
+        - asset: assets/fonts/Cairo/Cairo-Light.ttf
+          weight: 300
+        - asset: assets/fonts/Cairo/Cairo-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Cairo/Cairo-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Cairo/Cairo-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Cairo/Cairo-Black.ttf
+          weight: 900
